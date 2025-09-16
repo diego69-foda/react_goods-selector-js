@@ -19,7 +19,7 @@ export const App = () => (
     <h1 className="title is-flex is-align-items-center">No goods selected</h1>
 
     <h1 className="title is-flex is-align-items-center">
-      Jam is selected
+      {goods} is selected
       <button data-cy="ClearButton" type="button" className="delete ml-3" />
     </h1>
 
