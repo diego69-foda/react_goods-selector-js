@@ -1,5 +1,6 @@
 import 'bulma/css/bulma.css';
 import './App.scss';
+import { useState } from 'react';
 
 export const goods = [
   'Dumplings',
@@ -15,6 +16,8 @@ export const goods = [
 ];
 
 export const App = () => (
+  let [selectedGoods, setSelectedGoods] = useState([]);
+  
   <main className="section container">
     <h1 className="title is-flex is-align-items-center">No goods selected</h1>
 
